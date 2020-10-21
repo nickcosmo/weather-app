@@ -1,7 +1,7 @@
 <template>
     <div>
     <transition mode="out-in">
-      <h2 v-if="temperature == null">...</h2>
+      <h2 v-if="temperature == null">???</h2>
       <h2 v-else>{{ temperature }}&deg;</h2>
     </transition>
     </div>

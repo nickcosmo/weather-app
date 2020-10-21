@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>Whats The Weather?</h1>
+    <p>(Type a City Name Below)</p>
   </div>
   <div>
     <input type="text" v-model="cityName">
@@ -45,6 +46,10 @@ html {
   font-family: sans-serif;
 }
 
+p {
+  font-size: 20px;
+}
+
 div {
   margin-top: 30px;
   width: 100%;
@@ -84,10 +89,6 @@ input {
   color: black;
   outline: none;
   font-size: 20px;
-}
-
-.v-enter.active {
-
 }
 
 @keyframes bump {
